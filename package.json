@@ -1,16 +1,28 @@
 {
-  "name": "@peekslight/storybook",
+  "name": "peekslight-storybook",
   "version": "1.0.0",
-  "description": "",
+  "description": "Storybook for project \"PeeksLight\"",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
     "build": " tsc -p ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Eva",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.3.4"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mia-clandon/storybook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mia-clandon/storybook/issues"
+  },
+  "homepage": "https://github.com/mia-clandon/storybook#readme"
 }
